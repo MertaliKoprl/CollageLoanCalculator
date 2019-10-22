@@ -8,5 +8,8 @@
     <string name="monthly_payments">Monthly Payments</string>
     <string name="Percentage">%</string>
     <string name="Initial">0.0</string>
+    <string name="calculate">Calculate</string>
+    <string name="total_loan">Total Loan</string>
+    <string name="total_interest">Total Interest</string>
 
 </resources>
