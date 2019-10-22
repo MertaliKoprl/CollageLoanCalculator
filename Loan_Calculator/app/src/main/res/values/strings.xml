@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LoanCalculator</string>
+    <string name="loan_amount">Loan Amount</string>
+    <string name="Unit">$</string>
+    <string name="loan_term">Loan Term</string>
+    <string name="write_in_year">Write in Year</string>
+    <string name="annual_interest_rate">Annual Interest Rate</string>
+    <string name="monthly_payments">Monthly Payments</string>
+    <string name="Percentage">%</string>
+    <string name="Initial">0.0</string>
+
+</resources>
