@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -38,6 +39,8 @@ public class MainActivity extends AppCompatActivity {
         EditText loanAmount = (EditText) findViewById(R.id.loanAmountInput);
         EditText interestRateInput = (EditText) findViewById(R.id.interestRate);
         EditText loanTermInput = (EditText) findViewById(R.id.loanTermInput);
+
+
 
 
         interestRateInput.addTextChangedListener(new TextWatcher() {
@@ -130,7 +133,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void CalculatePayment(View view) {
         if (operate && interestRate != 0 && loanTerm != 0 && TotalLoan != 0) {
-
             LabelTerm.setText(afterDotOneDigitFormat.format(loanTerm)+ " Years For Loan");
             LabelTerm.setVisibility(View.VISIBLE);
             interestRate = interestRate / 100;//To make equation easier
@@ -149,4 +151,6 @@ public class MainActivity extends AppCompatActivity {
 
         }
     }
+
+
 }
